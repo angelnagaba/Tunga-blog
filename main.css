@@ -1,0 +1,118 @@
+body{
+    box-sizing: border-box;
+    background-color: lightcyan;
+}
+.postBody{
+    box-sizing: border-box;
+    background-color: lightcyan;
+}
+header{
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+h1{
+    color:lightseagreen;
+    text-transform: uppercase;
+}
+
+nav{
+    display: block
+}
+
+a:link, a:visited {
+    /* background-color: #f44336; */
+    color: black;
+    border: 1px solid #d8c3a5;
+    border-radius: 12px;
+    text-transform: uppercase;
+    padding: 1%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 4%;
+  }
+  
+  a:hover, a:active {
+    border-radius: 12px;
+    background-color: #e98074;
+  }
+
+#logout{
+    float: right;
+    padding: 1%;
+    border-radius: 15px;
+   /* border: 2px solid #838d8a;*/
+    background-color:lightseagreen;
+
+}
+
+h2{
+    text-align: center;
+}
+
+#blog{
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+textarea {
+    width: 60%;
+    height: 60;
+    border: 2px solid #838d8a;
+    border-radius: 4px;
+    background-color: #a0b1ad;
+    resize: none;
+}
+
+#post-title{
+    padding: 1%;
+    margin-bottom: 1%;
+    width: 55%;
+    background-color: #f8f8f8;
+    border: 2px solid #838d8a;
+}
+
+.btn{
+    padding: 1%;
+    border-radius: 15px;
+    margin-top: 2%;
+    width: 60%;
+}
+
+.postBtn{
+    width: 10%;
+    padding: 1%;
+    border-radius: 15px;
+    margin-left: 1%;
+}
+
+fieldset{
+    width: 60%;
+    padding: 1%;
+    margin: 0 auto;
+}
+
+.authBtn{
+    width: 50%;
+    padding: 1.5%;
+    border-radius: 15px;
+    margin-right: 5%;
+    background-color:lightseagreen;
+}
+.addPostBtn{
+    width: 50%;
+    padding: 1.5%;
+    border-radius: 15px;
+    margin-right: 5%;
+    background-color:lightseagreen;
+}
+
+#email-login, #password-login, #first-name, #surname, #email, #password{
+    padding: 1%;
+    margin-bottom: 1%;
+    width: 98%;
+    background-color: #f8f8f8;
+    border: 2px solid #838d8a;
+}
